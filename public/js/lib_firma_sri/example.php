@@ -45,10 +45,10 @@ if (!empty($firmaFactura)) {
 
 
 
-$ruta_factura= 'http://127.0.0.1:8000/js/lib_firma_sri/factura.xml';
-$ruta_certificado= 'http://127.0.0.1:8000/js/lib_firma_sri/angel_martin_pisculla_coque.p12';
+$ruta_factura= '/js/lib_firma_sri/factura.xml';
+$ruta_certificado= '/js/lib_firma_sri/angel_martin_pisculla_coque.p12';
 $contraseña= 'Alejandro2014';
-$ruta_respuesta= 'http://127.0.0.1:8000/js/lib_firma_sri/example.php';
+$ruta_respuesta= '/js/lib_firma_sri/example.php';
 
 $ejecutar = new ejecutar();
 $domain_dir = $_SERVER['SERVER_NAME'];

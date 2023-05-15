@@ -52,6 +52,8 @@ use ZipArchive;
 
 use App\Classes\SignMx;
 use App\models\InvoiceSettings;
+use Exception;
+use Stenfrank\UBL21dian\Templates\SOAP\SendBillAsync;
 
 class InvoiceController extends BaseController {
     private $xml_colombia;
@@ -2897,7 +2899,6 @@ class InvoiceController extends BaseController {
         $estado="NO AUTORIZADO";
         if($settings_dian->typeoperation_cod=='2'){
             $resp=$this->SendTestSetAsync($pathCertificate, $password,$settings_dian->testsetid,$nombrezip.'.zip',$nombrezip);
-            ;
             if ($resp!='') {
                 if ($resp->SendTestSetAsyncResponse->SendTestSetAsyncResult->ZipKey!='') {
                     $intentos=0;
@@ -3057,11 +3058,12 @@ class InvoiceController extends BaseController {
         if(is_readable('js/lib_dian/comprobantes_colombia/'.$nombrezip)) {
             $fileContent = file_get_contents('js/lib_dian/comprobantes_colombia/'.$nombrezip);
             $zip = base64_encode($fileContent);
-            $SendBillSync = new SendBillSync($pathCertificate, $password);
+            $SendBillSync = new SendBillAsync($pathCertificate, $password);
             $SendBillSync->To = 'https://vpfe.dian.gov.co/WcfDianCustomerServices.svc?wsdl';
             $SendBillSync->fileName = $filename;
             $SendBillSync->contentFile = $zip;
             $resp=$SendBillSync->signToSend()->getResponseToObject()->Envelope->Body;
+            throw new Exception('Class '.get_class($this). ' resp ' . json_encode($resp)); 
         }
         return $resp;
     }
@@ -3075,6 +3077,7 @@ class InvoiceController extends BaseController {
             $sendTestSetAsync->contentFile = $zip;
             $sendTestSetAsync->testSetId = $testSetId;
             $resp=$sendTestSetAsync->signToSend()->getResponseToObject()->Envelope->Body;
+            throw new Exception('Class '.get_class($this). ' resp ' . json_encode($resp)); 
         }
         return $resp;
     }
@@ -3473,8 +3476,8 @@ class InvoiceController extends BaseController {
         $signInvoice = new SignInvoice($pathCertificate, $passwors, $xmlString,SignInvoice::ALGO_SHA256,$technicalKey);
         $nombrearchivo=$this->fntnombrearchivo($tipo,$identificacion,"000",$fecha,$enviados);
         //se obtiene el cufe
-        $this->cufe=$signInvoice->getCufe();
-        $this->qr=$signInvoice->getQR();
+        // $this->cufe=$signInvoice->getCufe();
+        // $this->qr=$signInvoice->getQR();
         //se guarda en el nombre del archivo y el obejto nstanciado
         file_put_contents('js/lib_dian/comprobantes_colombia/'.$nombrearchivo.'.xml', $signInvoice->xml);
         return $nombrearchivo;
