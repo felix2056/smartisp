@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura version="1.0.0" id="comprobante">
+<infoTributaria>
+<ambiente>1</ambiente>
+<tipoEmision>1</tipoEmision>
+<razonSocial>RSOCIAL</razonSocial>
+<nombreComercial>OSANSTORE</nombreComercial>
+<ruc>1234567890001</ruc>
+<claveAcceso>1912201801123456789000110010010000147371234567810</claveAcceso>
+<codDoc>01</codDoc>
+<estab>001</estab>
+<ptoEmi>001</ptoEmi>
+<secuencial>000014737</secuencial>
+<dirMatriz>DR LUIS GOMEZ JURADO SN Y LUIS VARGAS TORRES</dirMatriz>
+</infoTributaria>
+<infoFactura>
+<fechaEmision>19/12/2018</fechaEmision>
+<dirEstablecimiento>DR LUIS GOMEZ JURADO SN Y LUIS VARGAS TORRES</dirEstablecimiento>
+<obligadoContabilidad>NO</obligadoContabilidad>
+<tipoIdentificacionComprador>04</tipoIdentificacionComprador>
+<razonSocialComprador>CONSUMIDOR FINAL</razonSocialComprador>
+<identificacionComprador>9999999999999</identificacionComprador>
+<totalSinImpuestos>8.00</totalSinImpuestos>
+<totalDescuento>0.00</totalDescuento>
+<totalConImpuestos>
+<totalImpuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<baseImponible>8.00</baseImponible>
+<valor>0.96</valor>
+</totalImpuesto>
+</totalConImpuestos>
+<propina>0.00</propina>
+<importeTotal>8.96</importeTotal>
+<moneda>1</moneda>
+<pagos>
+<pago>
+<formaPago>01</formaPago>
+<total>8.96</total>
+<plazo>1</plazo>
+<unidadTiempo>dias</unidadTiempo>
+</pago>
+</pagos>
+</infoFactura>
+<detalles>
+<detalle>
+<codigoPrincipal>381</codigoPrincipal>
+<descripcion>PROMOCION NELTEX TALLA 10-12</descripcion>
+<cantidad>1.00</cantidad>
+<precioUnitario>8.00</precioUnitario>
+<descuento>0.00</descuento>
+<precioTotalSinImpuesto>8.00</precioTotalSinImpuesto>
+<impuestos>
+<impuesto>
+<codigo>2</codigo>
+<codigoPorcentaje>2</codigoPorcentaje>
+<tarifa>12.00</tarifa>
+<baseImponible>8.00</baseImponible>
+<valor>0.96</valor>
+</impuesto>
+</impuestos>
+</detalle>
+</detalles>
+<infoAdicional>
+<campoAdicional nombre="Direccion">ECUADOR</campoAdicional>
+<campoAdicional nombre="Telefono">1234567890</campoAdicional>
+<campoAdicional nombre="Email">osanstore@gmail.com</campoAdicional>
+</infoAdicional>
+</factura>

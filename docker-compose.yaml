@@ -1,0 +1,51 @@
+version: "3"
+services:
+  mikro-watch:
+    build: "./.docker/statistics/"
+    container_name: mikro-watch
+    network_mode: "host"
+    environment:
+      - INFLUXDB_HOST=127.0.0.1
+      - INFLUXDB_USER=admin
+      - INFLUXDB_PASS=smartisp
+      - INFLUXDB_DATABASE=smartseries
+      - DB_DATABASE=${DB_DATABASE}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DNS_REVERSE_LOOKUP=false
+      - DNS_REVERSE_LOOKUP_TRIM_SUFFIX=false
+    restart: unless-stopped
+  influxdb:
+    image: influxdb:1.8.6-alpine
+    volumes:
+      - influxdb-storage:/var/lib/influxdb
+    environment:
+      - INFLUXDB_DB=smartseries
+      - INFLUXDB_ADMIN_USER=admin
+      - INFLUXDB_ADMIN_PASSWORD=smartisp
+      - INFLUXDB_ADMIN_ENABLED=true
+      - INFLUXDB_USER=user
+      - INFLUXDB_USER_PASSWORD=khaldrogo
+    ports: 
+      - "8086:8086"
+    restart: unless-stopped
+  grafana:
+    build: "./.docker/grafana/"
+    ports:
+      - "3000:3000"
+    volumes:
+      - grafana-storage:/var/lib/grafana
+      - ./grafana-provisioning/:/etc/grafana/provisioning
+    depends_on:
+      - influxdb
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=smartisp
+      - GF_SECURITY_ALLOW_EMBEDDING=true
+      - GF_AUTH_ANONYMOUS_ENABLED=true
+      - GF_AUTH_ANONYMOUS_ORG_NAME=smartisp
+      - GF_AUTH_ANONYMOUS_ORG_ROLE=Viewer
+    restart: unless-stopped
+volumes:
+  influxdb-storage:
+  grafana-storage:

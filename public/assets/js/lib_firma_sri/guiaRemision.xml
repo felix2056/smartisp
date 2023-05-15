@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<guiaRemision id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>PISCULLA COQUE ANGEL MARTIN</razonSocial>
+        <nombreComercial>MP ASESORIA INTEGRAL</nombreComercial>
+        <ruc>1717091506001</ruc>
+        <claveAcceso>0510201806171709150600110010010000000021234567810</claveAcceso>
+        <codDoc>06</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000002</secuencial>
+        <dirMatriz>CAMILO PONCE ENRIQUEZ Y PASAJE ALMEIDA CONJUNTO ARAGON 1	</dirMatriz>
+    </infoTributaria>
+    <infoGuiaRemision>
+        <dirEstablecimiento>CAMILO PONCE ENRIQUEZ Y PASAJE ALMEIDA CONJUNTO ARAGON 1	</dirEstablecimiento>
+        <dirPartida>PRUEBA GUIA DE REMISION</dirPartida>
+        <razonSocialTransportista>PRUEBA GUIA</razonSocialTransportista>
+        <tipoIdentificacionTransportista>04</tipoIdentificacionTransportista>
+        <rucTransportista>0200705994001</rucTransportista>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <fechaIniTransporte>05/10/2018</fechaIniTransporte>
+        <fechaFinTransporte>05/10/2018</fechaFinTransporte>
+        <placa>xcc1101</placa>
+    </infoGuiaRemision>
+    <destinatarios>
+        <destinatario>
+            <identificacionDestinatario>1714612791</identificacionDestinatario>
+            <razonSocialDestinatario>PRUEBA DESTINARIO GUIA</razonSocialDestinatario>
+            <dirDestinatario>DIRECCION DESTINO</dirDestinatario>
+            <motivoTraslado>MOTIVO PRUEBA</motivoTraslado>
+            <docAduaneroUnico>99999999999999999</docAduaneroUnico>
+            <codEstabDestino>999</codEstabDestino>
+            <ruta>RUTA PRUEBA</ruta>
+            <codDocSustento>01</codDocSustento>
+            <numDocSustento>001-001-000987465</numDocSustento>
+            <numAutDocSustento>2323232323233333333333333332222222222222222222222</numAutDocSustento>
+            <fechaEmisionDocSustento>05/10/2018</fechaEmisionDocSustento>
+            <detalles>
+                <detalle>
+                    <codigoInterno>001base 12%</codigoInterno>
+                    <codigoAdicional>001</codigoAdicional>
+                    <descripcion>ASESORIA</descripcion>
+                    <cantidad>1</cantidad>
+                    <detallesAdicionales>
+                        <detAdicional nombre="honorario" valor="1"></detAdicional>
+                    </detallesAdicionales>
+                </detalle>
+                <detalle>
+                    <codigoInterno>base 0%</codigoInterno>
+                    <codigoAdicional>p1</codigoAdicional>
+                    <descripcion>PRUEBA 1</descripcion>
+                    <cantidad>1</cantidad>
+                    <detallesAdicionales>
+                        <detAdicional nombre="aaaaa" valor="a"></detAdicional>
+                        <detAdicional nombre="bbbbb" valor="b"></detAdicional>
+                        <detAdicional nombre="cccc" valor="c"></detAdicional>
+                    </detallesAdicionales>
+                </detalle>
+                <detalle>
+                    <codigoInterno>no objeto de impuesto</codigoInterno>
+                    <codigoAdicional>no objeto</codigoAdicional>
+                    <descripcion>NO OBJETO </descripcion>
+                    <cantidad>1</cantidad>
+                </detalle>
+                <detalle>
+                    <codigoInterno>excento</codigoInterno>
+                    <codigoAdicional>excento</codigoAdicional>
+                    <descripcion>EXCENTO</descripcion>
+                    <cantidad>1</cantidad>
+                </detalle>
+            </detalles>
+        </destinatario>
+    </destinatarios>
+    <infoAdicional>
+        <campoAdicional nombre="DATO PRUEBA">aasdsads</campoAdicional>
+    </infoAdicional>
+</guiaRemision>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notaDebito id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>PISCULLA COQUE ANGEL MARTIN</razonSocial>
+        <nombreComercial>MP ASESORIA INTEGRAL</nombreComercial>
+        <ruc>1717091506001</ruc>
+        <claveAcceso>0510201805171709150600110010010000000021234567814</claveAcceso>
+        <codDoc>05</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000002</secuencial>
+        <dirMatriz>CAMILO PONCE ENRIQUEZ Y PASAJE ALMEIDA CONJUNTO ARAGON 1	</dirMatriz>
+    </infoTributaria>
+    <infoNotaDebito>
+        <fechaEmision>05/10/2018</fechaEmision>
+        <dirEstablecimiento>CAMILO PONCE ENRIQUEZ Y PASAJE ALMEIDA CONJUNTO ARAGON 1	</dirEstablecimiento>
+        <tipoIdentificacionComprador>05</tipoIdentificacionComprador>
+        <razonSocialComprador>ABCD PRUEBAS</razonSocialComprador>
+        <identificacionComprador>1714612791</identificacionComprador>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <codDocModificado>01</codDocModificado>
+        <numDocModificado>001-001-000222323</numDocModificado>
+        <fechaEmisionDocSustento>05/10/2018</fechaEmisionDocSustento>
+        <totalSinImpuestos>2.5</totalSinImpuestos>
+        <impuestos>
+            <impuesto>
+                <codigo>2</codigo>
+                <codigoPorcentaje>2</codigoPorcentaje>
+                <tarifa>12</tarifa>
+                <baseImponible>2.5</baseImponible>
+                <valor>0.30</valor>
+            </impuesto>
+        </impuestos>
+        <valorTotal>2.80</valorTotal>
+        <pagos>
+            <pago>
+                <formaPago>01</formaPago>
+                <total>2.80</total>
+                <plazo>12</plazo>
+                <unidadTiempo>Días</unidadTiempo>
+            </pago>
+        </pagos>
+    </infoNotaDebito>
+    <motivos>
+        <motivo>
+            <razon>RIDE</razon>
+            <valor>2.50</valor>
+        </motivo>
+    </motivos>
+    <infoAdicional>
+        <campoAdicional nombre="Dirección">PRUEBAS 	</campoAdicional>
+        <campoAdicional nombre="Email">pruebas@hotmail.com</campoAdicional>
+        <campoAdicional nombre="Teléfono">022070995</campoAdicional>
+    </infoAdicional>
+</notaDebito>

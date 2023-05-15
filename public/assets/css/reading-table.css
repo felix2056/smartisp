@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS styles for table tickets */
+.rowblue{
+text-decoration: none;
+white-space: nowrap;	
+font-weight:bold;
+font-size:lager;
+color:#5090C1;
+}

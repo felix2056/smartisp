@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS SmartISP Corrections css */
+.datepicker{z-index:1151 !important;}
+/***
+Bootstrap Time Picker
+***/
+.bootstrap-timepicker-widget table td a {
+	padding: 4px 0;
+}
+
+.bootstrap-timepicker-widget input,
+.bootstrap-timepicker-widget input:focus {
+	outline: none !important;
+	border: 0;
+}
+
+.modal-open .bootstrap-timepicker-widget {
+	z-index: 10055 !important;
+}
+
+.bootstrap-timepicker-widget.timepicker-orient-bottom:before,
+.bootstrap-timepicker-widget.timepicker-orient-bottom:after {
+	top: auto;
+}
+
+.ui-autocomplete {
+	z-index: 5000;
+	max-height: 100px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+

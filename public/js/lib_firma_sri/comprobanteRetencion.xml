@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comprobanteRetencion id="comprobante" version="1.0.0">
+    <infoTributaria>
+        <ambiente>1</ambiente>
+        <tipoEmision>1</tipoEmision>
+        <razonSocial>PISCULLA COQUE ANGEL MARTIN</razonSocial>
+        <nombreComercial>MP ASESORIA INTEGRAL</nombreComercial>
+        <ruc>1717091506001</ruc>
+        <claveAcceso>0510201807171709150600110010010000000021234567817</claveAcceso>
+        <codDoc>07</codDoc>
+        <estab>001</estab>
+        <ptoEmi>001</ptoEmi>
+        <secuencial>000000002</secuencial>
+        <dirMatriz>CAMILO PONCE ENRIQUEZ Y PASAJE ALMEIDA CONJUNTO ARAGON 1	</dirMatriz>
+    </infoTributaria>
+    <infoCompRetencion>
+        <fechaEmision>05/10/2018</fechaEmision>
+        <dirEstablecimiento>CAMILO PONCE ENRIQUEZ Y PASAJE ALMEIDA CONJUNTO ARAGON 1	</dirEstablecimiento>
+        <obligadoContabilidad>NO</obligadoContabilidad>
+        <tipoIdentificacionSujetoRetenido>04</tipoIdentificacionSujetoRetenido>
+        <razonSocialSujetoRetenido>PRUEBA RETENCION PION</razonSocialSujetoRetenido>
+        <identificacionSujetoRetenido>1792206375001</identificacionSujetoRetenido>
+        <periodoFiscal>10/2018</periodoFiscal>
+    </infoCompRetencion>
+    <impuestos>
+        <impuesto>
+            <codigo>2</codigo>
+            <codigoRetencion>1</codigoRetencion>
+            <baseImponible>80</baseImponible>
+            <porcentajeRetener>30.0</porcentajeRetener>
+            <valorRetenido>24.00</valorRetenido>
+            <codDocSustento>01</codDocSustento>
+            <numDocSustento>222222222222222</numDocSustento>
+            <fechaEmisionDocSustento>05/10/2018</fechaEmisionDocSustento>
+        </impuesto>
+        <impuesto>
+            <codigo>1</codigo>
+            <codigoRetencion>303</codigoRetencion>
+            <baseImponible>80</baseImponible>
+            <porcentajeRetener>10.0</porcentajeRetener>
+            <valorRetenido>8.00</valorRetenido>
+            <codDocSustento>01</codDocSustento>
+            <numDocSustento>222222222222222</numDocSustento>
+            <fechaEmisionDocSustento>05/10/2018</fechaEmisionDocSustento>
+        </impuesto>
+        <impuesto>
+            <codigo>1</codigo>
+            <codigoRetencion>332</codigoRetencion>
+            <baseImponible>3280</baseImponible>
+            <porcentajeRetener>0</porcentajeRetener>
+            <valorRetenido>0.00</valorRetenido>
+            <codDocSustento>01</codDocSustento>
+            <numDocSustento>222222222222222</numDocSustento>
+            <fechaEmisionDocSustento>05/10/2018</fechaEmisionDocSustento>
+        </impuesto>
+    </impuestos>
+    <infoAdicional>
+        <campoAdicional nombre="Dirección">PRUEBA RETENCIONES</campoAdicional>
+        <campoAdicional nombre="Teléfono">022070994</campoAdicional>
+        <campoAdicional nombre="Email">pruebaretencion@hotmail.com</campoAdicional>
+    </infoAdicional>
+</comprobanteRetencion>

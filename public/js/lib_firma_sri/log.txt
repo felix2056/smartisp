@@ -1,0 +1,1309 @@
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000056915491211
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000056915491211
+Clave Acceso: 1607201901171153100200110010010000000056915491211
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000052262074116
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000052262074116
+Clave Acceso: 1607201901171153100200110010010000000052262074116
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000058841929814
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000058841929814
+Clave Acceso: 1607201901171153100200110010010000000058841929814
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000054393610814
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200110010010000000054393610814
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => Se encontró el siguiente error en la estructura del comprobante: cvc-datatype-valid.1.2.1: '' is not a valid value for 'decimal'..
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000057062582119
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200110010010000000057062582119
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => Se encontró el siguiente error en la estructura del comprobante: cvc-datatype-valid.1.2.1: '' is not a valid value for 'decimal'..
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000057288773219
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200110010010000000057288773219
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => Se encontró el siguiente error en la estructura del comprobante: cvc-datatype-valid.1.2.1: '' is not a valid value for 'decimal'..
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000053684067410
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000053684067410
+Clave Acceso: 1607201901171153100200110010010000000053684067410
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000051292049111
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000051292049111
+Clave Acceso: 1607201901171153100200110010010000000051292049111
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000056410466016
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200110010010000000056410466016
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => Se encontró el siguiente error en la estructura del comprobante: cvc-datatype-valid.1.2.1: '' is not a valid value for 'decimal'..
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000054111406217
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000054111406217
+Clave Acceso: 1607201901171153100200110010010000000054111406217
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000054532501413
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000054532501413
+Clave Acceso: 1607201901171153100200110010010000000054532501413
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000058340516412
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000058340516412
+Clave Acceso: 1607201901171153100200110010010000000058340516412
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000046222740911
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200110010010000000046222740911
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => Se encontró el siguiente error en la estructura del comprobante: cvc-complex-type.2.4.b: The content of element 'totalImpuesto' is not complete. One of '{codigo}' is expected..
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000056325560518
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000056325560518
+Clave Acceso: 1607201901171153100200110010010000000056325560518
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000058516777315
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000058516777315
+Clave Acceso: 1607201901171153100200110010010000000058516777315
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000054202708917
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000054202708917
+Clave Acceso: 1607201901171153100200110010010000000054202708917
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000057928988713
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000057928988713
+Clave Acceso: 1607201901171153100200110010010000000057928988713
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000059410094312
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200110010010000000059410094312
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 45
+                                    [mensaje] => ERROR SECUENCIAL REGISTRADO
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000139536367814
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200110010010000000139536367814
+Clave Acceso: 1607201901171153100200110010010000000139536367814
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000047052274712
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200110010010000000047052274712
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => Se encontró el siguiente error en la estructura del comprobante: cvc-complex-type.2.4.b: The content of element 'totalImpuesto' is not complete. One of '{codigo}' is expected..
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000048874834317
+Respuesta: HTTP Error: cURL ERROR: 28: Operation timed out after 30000 milliseconds with 0 bytes received<br>url: https://celcer.sri.gob.ec:443/comprobantes-electronicos-ws/RecepcionComprobantesOffline?wsdl<br>content_type: <br>http_code: 100<br>header_size: 25<br>request_size: 253<br>filetime: -1<br>ssl_verify_result: 0<br>redirect_count: 0<br>total_time: 30<br>namelookup_time: 0.25<br>connect_time: 0.39<br>pretransfer_time: 0.687<br>size_upload: 11806<br>size_download: 0<br>speed_download: 0<br>speed_upload: 393<br>download_content_length: -1<br>upload_content_length: 11806<br>starttransfer_time: 0.844<br>redirect_time: 0<br>redirect_url: <br>primary_ip: 181.39.59.75<br>certinfo: Array<br>primary_port: 443<br>local_ip: 192.168.0.5<br>local_port: 60325<br>
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000042358650910
+Respuesta: HTTP Error: cURL ERROR: 28: Operation timed out after 30000 milliseconds with 0 bytes received<br>url: https://celcer.sri.gob.ec:443/comprobantes-electronicos-ws/RecepcionComprobantesOffline?wsdl<br>content_type: <br>http_code: 100<br>header_size: 25<br>request_size: 253<br>filetime: -1<br>ssl_verify_result: 0<br>redirect_count: 0<br>total_time: 30<br>namelookup_time: 0.265<br>connect_time: 0.437<br>pretransfer_time: 1.218<br>size_upload: 11802<br>size_download: 0<br>speed_download: 0<br>speed_upload: 393<br>download_content_length: -1<br>upload_content_length: 11802<br>starttransfer_time: 1.406<br>redirect_time: 0<br>redirect_url: <br>primary_ip: 181.188.194.26<br>certinfo: Array<br>primary_port: 443<br>local_ip: 192.168.0.5<br>local_port: 60381<br>
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200110010010000000144783027914
+Respuesta: HTTP Error: cURL ERROR: 28: Operation timed out after 30000 milliseconds with 0 bytes received<br>url: https://celcer.sri.gob.ec:443/comprobantes-electronicos-ws/RecepcionComprobantesOffline?wsdl<br>content_type: <br>http_code: 100<br>header_size: 25<br>request_size: 253<br>filetime: -1<br>ssl_verify_result: 0<br>redirect_count: 0<br>total_time: 30<br>namelookup_time: 0.25<br>connect_time: 0.391<br>pretransfer_time: 0.688<br>size_upload: 11834<br>size_download: 0<br>speed_download: 0<br>speed_upload: 394<br>download_content_length: -1<br>upload_content_length: 11834<br>starttransfer_time: 0.828<br>redirect_time: 0<br>redirect_url: <br>primary_ip: 181.39.59.75<br>certinfo: Array<br>primary_port: 443<br>local_ip: 192.168.0.5<br>local_port: 60486<br>
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000145348164610
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000145348164610
+Clave Acceso: 1607201901171153100200120010010000000145348164610
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000145348164610
+Clave Acceso: 1607201901171153100200120010010000000145348164610
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000047305023612
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200120010010000000047305023612
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 45
+                                    [mensaje] => ERROR SECUENCIAL REGISTRADO
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000157571536110
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000157571536110
+Clave Acceso: 1607201901171153100200120010010000000157571536110
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000169341866918
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000169341866918
+Clave Acceso: 1607201901171153100200120010010000000169341866918
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000178189657215
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000178189657215
+Clave Acceso: 1607201901171153100200120010010000000178189657215
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000187359481711
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000187359481711
+Clave Acceso: 1607201901171153100200120010010000000187359481711
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000198958889311
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000198958889311
+Clave Acceso: 1607201901171153100200120010010000000198958889311
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000208105724415
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000208105724415
+Clave Acceso: 1607201901171153100200120010010000000208105724415
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000217248467617
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000217248467617
+Clave Acceso: 1607201901171153100200120010010000000217248467617
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000218913525913
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200120010010000000218913525913
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 45
+                                    [mensaje] => ERROR SECUENCIAL REGISTRADO
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000215390996616
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200120010010000000215390996616
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 45
+                                    [mensaje] => ERROR SECUENCIAL REGISTRADO
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000224877437719
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000231130124513
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000231130124513
+Clave Acceso: 1607201901171153100200120010010000000231130124513
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000238646426510
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200120010010000000238646426510
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 45
+                                    [mensaje] => ERROR SECUENCIAL REGISTRADO
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000249573848911
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000249573848911
+Clave Acceso: 1607201901171153100200120010010000000249573848911
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000257369267811
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000257369267811
+Clave Acceso: 1607201901171153100200120010010000000257369267811
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000262376434311
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000262376434311
+Clave Acceso: 1607201901171153100200120010010000000262376434311
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000278878050012
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901171153100200120010010000000278878050012
+Clave Acceso: 1607201901171153100200120010010000000278878050012
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901171153100200120010010000000277328508015
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1607201901171153100200120010010000000277328508015
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 45
+                                    [mensaje] => ERROR SECUENCIAL REGISTRADO
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 160720190111120010010000000045637135713
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => N/A
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => No existe un contribuyente registrado con el RUC 111
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 150720190111110010010000000011218816214
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => N/A
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => No existe un contribuyente registrado con el RUC 111
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 150720190111110010010000000036015935911
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => N/A
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => No existe un contribuyente registrado con el RUC 111
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 160720190111110010010000000046158505113
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => N/A
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => No existe un contribuyente registrado con el RUC 111
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 160720190111110010010000000049805348016
+Servicio: Validar Comprobante
+Clave Acceso: 160720190111110010010000000049838144319
+Servicio: Validar Comprobante
+Clave Acceso: 160720190111110010010000000048132221713
+Servicio: Validar Comprobante
+Clave Acceso: 160720190111110010010000000047337302914
+Servicio: Validar Comprobante
+Clave Acceso: 160720190111110010010000000045552794612
+Servicio: Validar Comprobante
+Clave Acceso: 160720190111110010010000000048832351111
+Servicio: Validar Comprobante
+Clave Acceso: 160720190111110010010000000049461912510
+Servicio: Validar Comprobante
+Clave Acceso: 160720190111110010010000000047960477911
+Servicio: Validar Comprobante
+Clave Acceso: 160720190111110010010000000048822192716
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => N/A
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => No existe un contribuyente registrado con el RUC 111
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 150720190111110010010000000038346628213
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => N/A
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => No existe un contribuyente registrado con el RUC 111
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 15072019010180327020410010010000000028982004916
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => N/A
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => No existe un contribuyente registrado con el RUC 01803270204
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1507201901180327020400110010010000000011386913815
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => 1507201901180327020400110010010000000011386913815
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => Se encontró el siguiente error en la estructura del comprobante: cvc-complex-type.2.4.b: The content of element 'totalImpuesto' is not complete. One of '{codigo}' is expected..
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901180327020400110010010000000044021073311
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000044021073311
+Clave Acceso: 1607201901180327020400110010010000000044021073311
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901180327020400110010010000000045328722216
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000045328722216
+Clave Acceso: 1607201901180327020400110010010000000045328722216
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901180327020400110010010000000041366114712
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000041366114712
+Clave Acceso: 1607201901180327020400110010010000000041366114712
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901180327020400110010010000000047956964515
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000047956964515
+Clave Acceso: 1607201901180327020400110010010000000047956964515
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901180327020400110010010000000047501319311
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000047501319311
+Clave Acceso: 1607201901180327020400110010010000000047501319311
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901180327020400110010010000000043481620217
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000043481620217
+Clave Acceso: 1607201901180327020400110010010000000043481620217
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901180327020400110010010000000048243596318
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000048243596318
+Clave Acceso: 1607201901180327020400110010010000000048243596318
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901180327020400110010010000000047755793615
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000047755793615
+Clave Acceso: 1607201901180327020400110010010000000047755793615
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901180327020400110010010000000047542681619
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000047542681619
+Clave Acceso: 1607201901180327020400110010010000000047542681619
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901180327020400110010010000000048348742115
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000048348742115
+Clave Acceso: 1607201901180327020400110010010000000048348742115
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 1607201901180327020400110010010000000041609868011
+Respuesta: Array
+(
+    [estado] => RECIBIDA
+    [comprobantes] => 
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000041609868011
+Clave Acceso: 1607201901180327020400110010010000000041609868011
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 16072019011110010010000000046508548810
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => N/A
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => No existe un contribuyente registrado con el RUC 11
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 16072019011110010010000000046399771415
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => N/A
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => No existe un contribuyente registrado con el RUC 11
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Validar Comprobante
+Clave Acceso: 16072019011110010010000000049867224612
+Respuesta: Array
+(
+    [estado] => DEVUELTA
+    [comprobantes] => Array
+        (
+            [comprobante] => Array
+                (
+                    [claveAcceso] => N/A
+                    [mensajes] => Array
+                        (
+                            [mensaje] => Array
+                                (
+                                    [identificador] => 35
+                                    [mensaje] => ARCHIVO NO CUMPLE ESTRUCTURA XML
+                                    [informacionAdicional] => No existe un contribuyente registrado con el RUC 11
+                                    [tipo] => ERROR
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+
+__________________________________________________________________
+
+Servicio: Autorizacion Comprobante
+Clave Acceso: 1607201901180327020400110010010000000048495900117
+Clave Acceso: 1607201901180327020400110010010000000048495900117
+
+__________________________________________________________________
+

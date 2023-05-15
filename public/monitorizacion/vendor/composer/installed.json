@@ -1,0 +1,305 @@
+[
+    {
+        "name": "ivkos/pushbullet",
+        "version": "3.3.0",
+        "version_normalized": "3.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ivkos/Pushbullet-for-PHP.git",
+            "reference": "3de4a1732d14e8303a836a0a86a44e280e9cbee2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ivkos/Pushbullet-for-PHP/zipball/3de4a1732d14e8303a836a0a86a44e280e9cbee2",
+            "reference": "3de4a1732d14e8303a836a0a86a44e280e9cbee2",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">= 5.4.0"
+        },
+        "time": "2016-05-22T12:42:15+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Pushbullet\\": "src/Pushbullet"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ivaylo Stoyanov",
+                "email": "me@ivkos.com",
+                "homepage": "https://github.com/ivkos"
+            }
+        ],
+        "description": "Push notifications to devices and browsers via Pushbullet",
+        "homepage": "https://github.com/ivkos/Pushbullet-for-PHP",
+        "keywords": [
+            "android",
+            "chrome",
+            "firefox",
+            "iphone",
+            "notifications",
+            "push",
+            "pushbullet",
+            "windows"
+        ]
+    },
+    {
+        "name": "phpmailer/phpmailer",
+        "version": "v5.2.24",
+        "version_normalized": "5.2.24.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/PHPMailer/PHPMailer.git",
+            "reference": "22d04c6a58145a244696f3f254c1875aa653b26a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/22d04c6a58145a244696f3f254c1875aa653b26a",
+            "reference": "22d04c6a58145a244696f3f254c1875aa653b26a",
+            "shasum": ""
+        },
+        "require": {
+            "ext-ctype": "*",
+            "php": ">=5.0.0"
+        },
+        "require-dev": {
+            "doctrine/annotations": "1.2.*",
+            "jms/serializer": "0.16.*",
+            "phpdocumentor/phpdocumentor": "2.*",
+            "phpunit/phpunit": "4.8.*",
+            "symfony/debug": "2.8.*",
+            "symfony/filesystem": "2.8.*",
+            "symfony/translation": "2.8.*",
+            "symfony/yaml": "2.8.*",
+            "zendframework/zend-cache": "2.5.1",
+            "zendframework/zend-config": "2.5.1",
+            "zendframework/zend-eventmanager": "2.5.1",
+            "zendframework/zend-filter": "2.5.1",
+            "zendframework/zend-i18n": "2.5.1",
+            "zendframework/zend-json": "2.5.1",
+            "zendframework/zend-math": "2.5.1",
+            "zendframework/zend-serializer": "2.5.*",
+            "zendframework/zend-servicemanager": "2.5.*",
+            "zendframework/zend-stdlib": "2.5.1"
+        },
+        "suggest": {
+            "league/oauth2-google": "Needed for Google XOAUTH2 authentication"
+        },
+        "time": "2017-07-26T21:00:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "class.phpmailer.php",
+                "class.phpmaileroauth.php",
+                "class.phpmaileroauthgoogle.php",
+                "class.smtp.php",
+                "class.pop3.php",
+                "extras/EasyPeasyICS.php",
+                "extras/ntlm_sasl_client.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-2.1"
+        ],
+        "authors": [
+            {
+                "name": "Jim Jagielski",
+                "email": "jimjag@gmail.com"
+            },
+            {
+                "name": "Marcus Bointon",
+                "email": "phpmailer@synchromedia.co.uk"
+            },
+            {
+                "name": "Andy Prevost",
+                "email": "codeworxtech@users.sourceforge.net"
+            },
+            {
+                "name": "Brent R. Matzelle"
+            }
+        ],
+        "description": "PHPMailer is a full-featured email creation and transfer class for PHP"
+    },
+    {
+        "name": "dg/twitter-php",
+        "version": "v3.6",
+        "version_normalized": "3.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dg/twitter-php.git",
+            "reference": "dd872ad12121ff919b358989e61f7f08ba6cc7a8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/dg/twitter-php/zipball/dd872ad12121ff919b358989e61f7f08ba6cc7a8",
+            "reference": "dd872ad12121ff919b358989e61f7f08ba6cc7a8",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "php": ">=5.2.0"
+        },
+        "time": "2016-08-15T16:46:22+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-3-Clause"
+        ],
+        "authors": [
+            {
+                "name": "David Grudl",
+                "homepage": "https://davidgrudl.com"
+            }
+        ],
+        "description": "Small and easy Twitter library for PHP",
+        "homepage": "https://github.com/dg/twitter-php",
+        "keywords": [
+            "oauth",
+            "twitter"
+        ]
+    },
+    {
+        "name": "pear/net_dns2",
+        "version": "v1.4.3",
+        "version_normalized": "1.4.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/mikepultz/netdns2.git",
+            "reference": "24c84c98c8a85a1f3b6aa9b17df60d32a2d254e9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/mikepultz/netdns2/zipball/24c84c98c8a85a1f3b6aa9b17df60d32a2d254e9",
+            "reference": "24c84c98c8a85a1f3b6aa9b17df60d32a2d254e9",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.1.2"
+        },
+        "time": "2017-02-12T21:14:52+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Net_DNS2": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "BSD-2-Clause"
+        ],
+        "authors": [
+            {
+                "name": "Mike Pultz",
+                "email": "mike@mikepultz.com",
+                "homepage": "https://mikepultz.com/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Native PHP5 DNS Resolver and Updater Library",
+        "homepage": "https://netdns2.com/",
+        "keywords": [
+            "PEAR",
+            "dns",
+            "network"
+        ]
+    },
+    {
+        "name": "geerlingguy/ping",
+        "version": "1.1.2",
+        "version_normalized": "1.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/geerlingguy/Ping.git",
+            "reference": "b16248c0a59a6555437744db8b78c0589cfc32f9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/geerlingguy/Ping/zipball/b16248c0a59a6555437744db8b78c0589cfc32f9",
+            "reference": "b16248c0a59a6555437744db8b78c0589cfc32f9",
+            "shasum": ""
+        },
+        "time": "2017-02-02T15:38:40+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "JJG/Ping.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jeff Geerling",
+                "email": "jeff@jeffgeerling.com"
+            }
+        ],
+        "description": "A PHP class to ping hosts."
+    },
+    {
+        "name": "twilio/sdk",
+        "version": "5.15.4",
+        "version_normalized": "5.15.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/twilio/twilio-php.git",
+            "reference": "b39cd4ee5c9699895eb5ca5cf8d3d73b7316fc53"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/twilio/twilio-php/zipball/b39cd4ee5c9699895eb5ca5cf8d3d73b7316fc53",
+            "reference": "b39cd4ee5c9699895eb5ca5cf8d3d73b7316fc53",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "apigen/apigen": "^4.1",
+            "phpunit/phpunit": "4.5.*"
+        },
+        "time": "2017-10-28T00:32:51+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Twilio\\": "Twilio/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Twilio API Team",
+                "email": "api@twilio.com"
+            }
+        ],
+        "description": "A PHP wrapper for Twilio's API",
+        "homepage": "http://github.com/twilio/twilio-php",
+        "keywords": [
+            "api",
+            "sms",
+            "twilio"
+        ]
+    }
+]

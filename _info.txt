@@ -1,0 +1,24 @@
+-- description
+Resolver bug de facturación Electronica de Colombia DIAN en el error me sale esto:
+Class Stenfrank\UBL21dian\XAdES\SignInvoice: Failure signing data: error:0D0680A8:asn1 encoding routines:asn1_check_tlen:wrong tag
+
+Actualmente esta sobre software propio en php 7 y laravel 8, si tienes experiencia del facturación electronica en la DIAN escribe.
+
+
+
+157.230.59.1
+root
+Dian3Smar28ac
+DB: SmartISPv6ac
+
+
+Acceso ssh Putty por 22 FTP
+
+http://157.230.59.1/admin
+admin
+smartisp123
+
+
+157.230.59.1/phpmyadmin
+root
+DB: SmartISPv6ac
