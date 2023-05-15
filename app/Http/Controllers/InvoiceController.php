@@ -2139,7 +2139,7 @@ class InvoiceController extends BaseController {
             $server .= ':' . $_SERVER['SERVER_PORT'];
         }
 
-        $ruta_respuesta = 'http://localhost:8000/js/lib_firma_sri/example.php';
+        $ruta_respuesta = '/js/lib_firma_sri/example.php';
         $host_email = $global->server;
         $email = $global->email;
         $pass = $global->password;
