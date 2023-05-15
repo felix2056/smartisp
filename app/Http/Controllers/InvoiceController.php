@@ -2758,15 +2758,6 @@ class InvoiceController extends BaseController {
         }
         Dian_settings::where('id','=', 1)->update([$doc => $col_value+1,'zips' => $zips+1]);
     }
-
-    public function checkCert()
-    {
-        $pfx = file_get_contents(public_path() . '/js/lib_dian/comprobantes_colombia/smartisp.animeinterface.xyz.pfx');
-        $password = "smartisp123";
-
-        return response()->json(openssl_pkcs12_read($pfx, $certs, $password));
-    }
-
     //Genera un XML para la facturación electronica de Colombia
     public function xmlcolombia($id_bill,$bill) {
         $respuesta='Rechazada';
