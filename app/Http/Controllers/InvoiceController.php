@@ -2132,7 +2132,7 @@ class InvoiceController extends BaseController {
         $id_factura=$id_factura[0];
 
         if ($respuestadian != 'Aceptada')
-            return Reply::error('La DIAN no acepto la factura: '.$respuestadian);
+            // return Reply::error('La DIAN no acepto la factura: '.$respuestadian);
 
         $emisor = Factel::all();
         $empresa = $emisor->first();
@@ -2900,48 +2900,48 @@ class InvoiceController extends BaseController {
         if($settings_dian->typeoperation_cod=='2'){
             $resp=$this->SendTestSetAsync($pathCertificate, $password,$settings_dian->testsetid,$nombrezip.'.zip',$nombrezip);
             if ($resp!='') {
-                if ($resp->SendTestSetAsyncResponse->SendTestSetAsyncResult->ZipKey!='') {
-                    $intentos=0;
-                    $respuesta.=$resp->SendTestSetAsyncResponse->SendTestSetAsyncResult->ZipKey;
-                    //esperamos 2 segundos para consultar el estado de la factura
-                    sleep(2);
-                    while ($intentos <= 5){
-                        //consultamos si fue aceptado zip
-                        $getStatusZip = new GetStatusZip($pathCertificate, $password);
-                        $getStatusZip->trackId = $resp->SendTestSetAsyncResponse->SendTestSetAsyncResult->ZipKey;
-                        $resp=$getStatusZip->signToSend()->getResponseToObject()->Envelope->Body->GetStatusZipResponse->GetStatusZipResult->DianResponse;
-                        if (!empty($resp->StatusCode)){
-                            if ($resp->IsValid=='true'){
-                                $respuesta='Aceptada';
-                                $this->updateConsecutive($settings_dian->year,'fes',$settings_dian->fes,$settings_dian->zips);
-                                //print_r($resp);
-                            }else{
-                                unlink('js/lib_dian/comprobantes_colombia/'.$nombrezip.'.zip');//Eliminar el zip
-                                $respuesta=" ErrorMessage: ";
-                                foreach ($resp->ErrorMessage as $key => $value) {
-                                    $respuesta.=implode('\n',$value);
-                                }
-                            }
-                            $intentos=10;
-                        }else{
-                            sleep(2);
-                        }
-                        $intentos++;
-                    }
-                }else{
-                    $respuesta='Error en el ZipKey';
-                    if($resp!=''){
-                        if(isset($resp->SendTestSetAsyncResponse->SendTestSetAsyncResult->ErrorMessage)){
-                            $respuesta.=' , ErrorMessage: ';
-                            foreach ($resp->SendTestSetAsyncResponse->SendTestSetAsyncResult->ErrorMessage as $key => $string) {
-                                $respuesta.=$string[$key];
-                            }
-                        }
-                    }else{
+                // if ($resp->SendTestSetAsyncResponse->SendTestSetAsyncResult->ZipKey!='') {
+                //     $intentos=0;
+                //     $respuesta.=$resp->SendTestSetAsyncResponse->SendTestSetAsyncResult->ZipKey;
+                //     //esperamos 2 segundos para consultar el estado de la factura
+                //     sleep(2);
+                //     while ($intentos <= 5){
+                //         //consultamos si fue aceptado zip
+                //         $getStatusZip = new GetStatusZip($pathCertificate, $password);
+                //         $getStatusZip->trackId = $resp->SendTestSetAsyncResponse->SendTestSetAsyncResult->ZipKey;
+                //         $resp=$getStatusZip->signToSend()->getResponseToObject()->Envelope->Body->GetStatusZipResponse->GetStatusZipResult->DianResponse;
+                //         if (!empty($resp->StatusCode)){
+                //             if ($resp->IsValid=='true'){
+                //                 $respuesta='Aceptada';
+                //                 $this->updateConsecutive($settings_dian->year,'fes',$settings_dian->fes,$settings_dian->zips);
+                //                 //print_r($resp);
+                //             }else{
+                //                 unlink('js/lib_dian/comprobantes_colombia/'.$nombrezip.'.zip');//Eliminar el zip
+                //                 $respuesta=" ErrorMessage: ";
+                //                 foreach ($resp->ErrorMessage as $key => $value) {
+                //                     $respuesta.=implode('\n',$value);
+                //                 }
+                //             }
+                //             $intentos=10;
+                //         }else{
+                //             sleep(2);
+                //         }
+                //         $intentos++;
+                //     }
+                // }else{
+                //     $respuesta='Error en el ZipKey';
+                //     if($resp!=''){
+                //         if(isset($resp->SendTestSetAsyncResponse->SendTestSetAsyncResult->ErrorMessage)){
+                //             $respuesta.=' , ErrorMessage: ';
+                //             foreach ($resp->SendTestSetAsyncResponse->SendTestSetAsyncResult->ErrorMessage as $key => $string) {
+                //                 $respuesta.=$string[$key];
+                //             }
+                //         }
+                //     }else{
 
-                    }
-                    unlink('js/lib_dian/comprobantes_colombia/'.$nombrezip.'.zip');//Eliminar el zip
-                }
+                //     }
+                //     unlink('js/lib_dian/comprobantes_colombia/'.$nombrezip.'.zip');//Eliminar el zip
+                // }
 
             }else{
                 $respuesta.=' Error en el envio del SendTestSetAsync';
@@ -3063,7 +3063,7 @@ class InvoiceController extends BaseController {
             $SendBillSync->fileName = $filename;
             $SendBillSync->contentFile = $zip;
             $resp=$SendBillSync->signToSend()->getResponseToObject()->Envelope->Body;
-            throw new Exception('Class '.get_class($this). ' resp ' . json_encode($resp)); 
+            // throw new Exception('Class '.get_class($this). ' resp ' . json_encode($resp)); 
         }
         return $resp;
     }
@@ -3077,7 +3077,7 @@ class InvoiceController extends BaseController {
             $sendTestSetAsync->contentFile = $zip;
             $sendTestSetAsync->testSetId = $testSetId;
             $resp=$sendTestSetAsync->signToSend()->getResponseToObject()->Envelope->Body;
-            throw new Exception('Class '.get_class($this). ' resp ' . json_encode($resp)); 
+            // throw new Exception('Class '.get_class($this). ' resp ' . json_encode($resp)); 
         }
         return $resp;
     }
