@@ -52,13 +52,7 @@ class BillingController extends BaseController
         $Zone = Zone::all();
         $punto_emision = PuntoEmision::all();
 
-        $pfx = file_get_contents(public_path() . '/js/lib_dian/comprobantes_colombia/smartisp.animeinterface.xyz.pfx');
-        $password = "smartisp123";
-
-        $data = array(
-            "clients" => $clients, 
-            "plans" => $perm[0]->access_plans, 
-            "routers" => $perm[0]->access_routers,
+        $data = array("clients" => $clients, "plans" => $perm[0]->access_plans, "routers" => $perm[0]->access_routers,
             "users" => $perm[0]->access_users, "system" => $perm[0]->access_system, "bill" => $perm[0]->access_pays,
             "template" => $perm[0]->access_templates, "ticket" => $perm[0]->access_tickets, "sms" => $perm[0]->access_sms,
             "reports" => $perm[0]->access_reports,
@@ -66,10 +60,8 @@ class BillingController extends BaseController
             "lv" => $global->license, "company" => $global->company,
             'permissions' => $perm->first(),
             // menu options
-            "punto_emision"=>$punto_emision, "OdbSplitter" => $OdbSplitter, "OnuType" => $OnuType, "Zone" => $Zone,
-            "openssl"=> openssl_pkcs12_read($pfx, $certs, $password)
+             "punto_emision"=>$punto_emision, "OdbSplitter" => $OdbSplitter, "OnuType" => $OnuType, "Zone" => $Zone,
         );
-
         return view('billing.index', $data);
     }
 

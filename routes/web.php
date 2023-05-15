@@ -39,7 +39,6 @@ Route::get('/', 'LoginClientController@login')->name('login');
 Route::get('/cashdesk/login', 'LoginCashdeskController@login')->name('login-form');
 Route::post('/cashdesk/login', 'LoginCashdeskController@postLogin')->name('cashdesk.login');
 
-Route::post('check-cert', 'InvoiceController@checkCert');
 
 
 Route::get('admin', array('before' => 'installed', function () {
