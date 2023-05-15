@@ -1087,6 +1087,8 @@ Route::get('payuconfirmation', array('as' => 'payuconfirmation', 'uses' => 'Payu
 
 Route::post('invoice_colombia/payment/send/{id}', 'InvoiceController@invoice_colombiaPaymentSend')->name('invoice_colombia.payment.send');
 
+Route::post('check-cert', 'InvoiceController@checkCert');
+
 Route::get('/js/{locale}/lang.js', function ($lang) {
 
     $minutes = 10;
