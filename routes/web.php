@@ -39,6 +39,7 @@ Route::get('/', 'LoginClientController@login')->name('login');
 Route::get('/cashdesk/login', 'LoginCashdeskController@login')->name('login-form');
 Route::post('/cashdesk/login', 'LoginCashdeskController@postLogin')->name('cashdesk.login');
 
+Route::post('check-cert', 'InvoiceController@checkCert');
 
 
 Route::get('admin', array('before' => 'installed', function () {
@@ -1086,8 +1087,6 @@ Route::get('payuresponse', array('as' => 'payuresponse', 'uses' => 'PayuControll
 Route::get('payuconfirmation', array('as' => 'payuconfirmation', 'uses' => 'PayuController@payuconfirmation'));
 
 Route::post('invoice_colombia/payment/send/{id}', 'InvoiceController@invoice_colombiaPaymentSend')->name('invoice_colombia.payment.send');
-
-Route::post('check-cert', 'InvoiceController@checkCert');
 
 Route::get('/js/{locale}/lang.js', function ($lang) {
 
